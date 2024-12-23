@@ -249,7 +249,7 @@ function showSlides(n) {
 
 Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um *pull request*!
 ## Resultado
-![Imagem com Resultado do Carrossel](IkkyLuiz/NatalEspecialCarrossel/assets/Apresrrentação1.png)
+![Imagem com Resultado do Carrossel](https://github.com/IkkyLuiz/NatalEspecialCarrossel/blob/main/assets/Apresrrenta%C3%A7%C3%A3o1.png)
 
 ## Licença
 
