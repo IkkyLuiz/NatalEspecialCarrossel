@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Carrossel Especial de Natal</title>
+</head>
+<body>
+  <div class="container">
+    <a class="prev" href="#" onclick="addSlides(-1)">
+      <span>&#10094;</span>
+      <span class="prev-text">Voltar</span>
+    </a>
+    <div>
+      <div class="slides fade">
+        <img src="assets/slide1.png" />
+        <h2 class="title">ALEGRIA E FELICIDADE</h2>
+        <p class="content">Que o espírito do Natal traga muita alegria, paz e amor para o seu coração. Que cada momento seja iluminado pela esperança de um novo começo, cheio de boas energias e realizações. Feliz Natal! 🎄✨</p>
+      </div>
+      <div class="slides fade">
+        <img src="assets/slide2.png" />
+        <h2 class="title">AMOR E BONDADE</h2>
+        <p class="content">Que possamos espalhar carinho, compreensão e esperança por onde passarmos, tornando o mundo um lugar mais acolhedor. Que o coração de cada um se encha de luz e generosidade. Feliz Natal, com muito amor! ❤️🎄</p>
+      </div>
+      <div class="slides fade">
+        <img src="assets/slide3.png" />
+        <h2 class="title">FELIZ NATAL</h2>
+        <p class="content">Desejo a você um Natal repleto de amor, alegria e momentos especiais ao lado das pessoas que ama. Que a paz e a esperança iluminem seu caminho, e que o próximo ano seja cheio de bênçãos e realizações. 🎄✨<br/><br/>
+          <span>(Luiz Café)</span>
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="button" onclick="addSlides(1)">Próximo</button>
+      <div class="dot-box">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </div>
+  <script src="handle.js"></script>
+</body>
+</html>
